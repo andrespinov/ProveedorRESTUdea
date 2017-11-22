@@ -1,0 +1,10 @@
+language: java
+branches:
+    only:
+        master
+notifications:
+    email:
+        recipents:
+            andres.pinov@udea.edu.co
+jdk: oraclejdk8
+script: mvn clean install
